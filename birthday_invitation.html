@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #dcd6f7, #eae7ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .invitation-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .invitation-card h1 {
+            font-size: 2em;
+            color: #7b4cc8;
+        }
+
+        .invitation-card p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .invitation-card .date-time {
+            margin: 20px 0;
+            font-weight: bold;
+            color: #7b4cc8;
+        }
+
+        .invitation-card .rsvp-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #7b4cc8;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .invitation-card .rsvp-button:hover {
+            background: #6a3bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <h1>Вы приглашены на мой 25-ый день рождения!</h1>
+        <p>Буду рада разделить с Вами этот день!</p>
+        <p class="date-time">🎉 Дата: 22 февраля 2025 года<br>📍 Место: г. Молодечно</p>
+        <p>Приходите! Будет весело!</p>
+        <a href="#" class="rsvp-button" onclick="alert('Спасибо за подтверждение! До встречи!')">RSVP Now</a>
+    </div>
+</body>
+</html>
